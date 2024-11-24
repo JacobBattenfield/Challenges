@@ -1,0 +1,5 @@
+A store has a promotion going on where any item is buy two get one free for a total of three. This stacks so obviously it is a very popular promotion.
+Given the **Q** Quatitiy of the item and the **P** Price of the item, the program should output the total **C** Cost of the item given that every third purchase is free.
+
+
+After: The program is complete
