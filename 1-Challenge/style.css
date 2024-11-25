@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #23322c;
+}
+.Content{
+    height:300px;
+    width:600px;
+    background-color: rgb(245, 222, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+.Padding{
+    height:400px;
+    width:700px;
+    background-color: rgb(255, 192, 203);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.Border{
+    height:500px;
+    width:800px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.Margin{
+    height:600px;
+    width:900px;
+    background-color: rgb(98, 124, 243);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 30px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+p{
+    margin-top: 5px;
+}
+.Margin:hover{background-color: rgb(78, 104, 223);}
+.Border:hover{background-color: rgb(0,235,235);}
+.Padding:hover{background-color: rgb(235, 172, 180);}
+.Content:hover{background-color: rgb(225, 202, 159);
+}
+
